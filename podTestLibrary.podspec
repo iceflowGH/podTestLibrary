@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'podTestLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'podTestLibrary' => ['podTestLibrary/Assets/*.png']
-  # }
+  s.resource_bundles = {
+#  'podTestLibrary' => ['podTestLibrary/Assets/*.png']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'podTestLibrary/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 2.3'
+#  s.dependency 'Socket.IO-Client-Swift', '~> 7.0.3'
 end

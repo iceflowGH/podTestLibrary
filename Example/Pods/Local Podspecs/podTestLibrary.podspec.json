@@ -1,0 +1,40 @@
+{
+  "name": "podTestLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of podTestLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iceflowGH/podTestLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iceflowGH": "838953209@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/iceflowGH/podTestLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "podTestLibrary/Classes/**/*",
+  "resource_bundles": {
+    "podTestLibrary": [
+      "podTestLibrary/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "Socket.IO-Client-Swift": [
+      "~> 7.0.3"
+    ]
+  }
+}
